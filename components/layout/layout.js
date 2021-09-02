@@ -10,6 +10,8 @@ function Layout(props) {
 
   const activeNotification = notificationCtx.notification;
 
+  console.log(activeNotification);
+
   return (
     <Fragment>
       <MainHeader />
